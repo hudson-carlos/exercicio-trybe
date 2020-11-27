@@ -1,12 +1,11 @@
-let num=2;
+let num=5;
 let exit=0;
 for (let x=0;x < num; x++){
     if (x===0){
         exit='*';
+        console.log(exit);
     }else{
-        exit=exit+'*';    
+        exit=exit+'*';
+        console.log(exit);    
     }           
-}
-for(let y=0; y<num; y++){
-    console.log(exit); 
 }
